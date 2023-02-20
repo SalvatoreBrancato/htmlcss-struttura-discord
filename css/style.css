@@ -8,32 +8,36 @@ nav{
     display: flex;
     width: 100%;
     height: 50px;
-    justify-content: center;
+    justify-content: space-around;
     background-color: lightblue;
 }
 
 .logo{
     height: 80%;
-    width: 20%;
+    width: 10%;
     border: 2px solid black;
     color: white;
     background-color: lightsalmon;
+    text-align: center;
+    padding: 10px;
 }
 
 .link{
     height: 80%;
-    width: 40%;
+    width: 50%;
     border: 2px solid black;
     background-color: lightsalmon;
 }
 
 .login{
     height: 80%;
-    width: 20%;
+    width: 10%;
     border: 2px solid black;
-    text-align: right;
+    text-align: center;
     color: white;
     background-color: lightsalmon;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 ul{
@@ -42,7 +46,11 @@ ul{
 }
 
 li{
-    display: inline-block;
+    display: inline-block;    
+}
+
+a{
+    text-decoration: none;
     color: white;
 }
 
@@ -87,8 +95,8 @@ li{
     width: 100%;
     background-color: lightslategray;
     display: flex;
-    justify-content: center;
-    align-items: center
+    justify-content:space-around;
+    align-items:center
 }
 
 .box{
@@ -96,6 +104,9 @@ li{
     width: 50%;
     background-color: pink;
     border: 2px solid black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
 }
 
 .box-a{
@@ -117,6 +128,9 @@ li{
     width: 60%;
     background-color: green; 
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .box-d{
@@ -135,17 +149,29 @@ li{
 
 .box-f{
     height: 50%;
-    width: 30%;
+    width: 20%;
     background-color: aquamarine;
     border: 2px solid black;
 }
 
 .box-f:nth-child(2){
-    height: 50%;
-    width: 30%;
-    background-color: aquamarine;
+    height:30px;
+    width: 10%;
+    background-color: white;
+    border-radius: 20px;
     border: 2px solid black;
-    text-align: right;
+    text-align: center;
+
+}
+
+.mac, .browser{
+    
+    border-radius: 20px;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 
